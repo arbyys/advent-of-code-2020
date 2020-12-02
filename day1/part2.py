@@ -1,4 +1,4 @@
-with open('../input.txt') as file:
+with open('input.txt') as file:
     data = file.read().split("\n")
     data = data[:-1] # remove last empty line
 
@@ -15,8 +15,11 @@ for x in data:
     for i in data:
         if(i == x):
             continue
-        if(x + i == 2020):
-            result = x * i
-            break
+        for z in data:
+            if(z == i):
+                continue
+            if(x + i + z == 2020):
+                result = x * i * z
+                break
 
 print(result)
