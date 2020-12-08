@@ -4,4 +4,5 @@ with open('input.txt') as file:
 
     data = list(map(int, data)) # to int
 
-print(data)
+for x in data:
+    print(x)
