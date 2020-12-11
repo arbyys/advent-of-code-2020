@@ -26,6 +26,7 @@ for x in data:
 wanted_bags = ["shiny gold"]
 selected_bags = []
 all_bags = []
+
 while True:
     for key, value in bags.items():
         for bag in value:
