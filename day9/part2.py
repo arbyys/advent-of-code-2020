@@ -4,7 +4,7 @@ with open('input.txt') as file:
 
     data = list(map(int, data)) # to int
 
-invalid = 69316178
+invalid = 104054607
 used_numbers = []
 current_index = 0
 backup_index = current_index

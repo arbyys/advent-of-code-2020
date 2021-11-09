@@ -25,6 +25,5 @@ for i in range(len(right_growth)):
 
 result = 1
 for x in trees:
-    print(x)
     result = result * x
 print(result)

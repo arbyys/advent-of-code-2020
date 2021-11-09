@@ -10,7 +10,7 @@ flag = False
 
 for x in range(1, 30000002):
     if(x == 30000001):
-        print(x, last_spoken)
+        print(last_spoken)
     if(x <= len(data)):
         last_spoken = data[x-1]
         last_time_spoken[last_spoken] = x
@@ -44,4 +44,3 @@ for x in range(1, 30000002):
         before_spoken[last_spoken] = last_time_spoken[last_spoken]
         last_time_spoken[last_spoken] = x
         continue
-print(last_spoken)

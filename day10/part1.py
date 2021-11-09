@@ -2,12 +2,12 @@ import sys
 
 with open('input.txt') as file:
     data = file.read().split("\n")
-    data = data[:-1] # remove last empty line
+    data = data[:-1]  # remove last empty line
 
-    data = list(map(int, data)) # to int
+    data = list(map(int, data))  # to int
 
 builtin_rating = max(data) + 3
-differences = {1:0, 2:0, 3:0}
+differences = {1: 0, 2: 0, 3: 0}
 current_rating = 0
 
 while True:
@@ -27,3 +27,5 @@ while True:
                 found = True
                 break
         query += 1
+
+# %%
