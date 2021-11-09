@@ -2,7 +2,7 @@ import math
 
 with open('input.txt') as file:
     data = file.read().split("\n")
-    data = data[:-1] # remove last empty line
+    data = data[:-1] # remove last empty line.
 
 
 def changeDirection(direction, degree, current_direction):
